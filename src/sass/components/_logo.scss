@@ -1,0 +1,14 @@
+.logo {
+  img {
+    max-height: 50px;
+  }
+  p {
+    display: none;
+    @include desktop-up {
+      color: $siteYellow;
+      display: block;
+      margin-left: 20px;
+      align-self: center;
+    }
+  }
+}

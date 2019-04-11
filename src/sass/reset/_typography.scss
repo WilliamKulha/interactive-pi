@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+body {
+  h1, h2 {
+    font-family: $play;
+  }
+  p, a, li, {
+    font-family: $roboto;
+  } 
+  header {
+    p, a {
+      font-family: $play;
+    }
+    p {
+      font-size: .75rem;
+    }
+  }
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}

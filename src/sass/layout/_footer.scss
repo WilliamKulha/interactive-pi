@@ -1,0 +1,24 @@
+footer {
+  grid-row: 5;
+  background-color: $siteBlue;
+  color: $siteYellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: $siteYellow;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+  }
+  img {
+    width: 25%;
+    max-width: 350px;
+  }
+  p {
+    font-size: .8em;    
+  }
+  p:last-child {
+    margin-bottom: 20px;
+  }
+}

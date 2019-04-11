@@ -1,0 +1,49 @@
+%main-section-shared {
+  * {
+    margin-bottom: 1vh;
+  }
+}
+
+@mixin tablet-portrait-up {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape-up {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin service-columns {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+      div {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        p, ul {
+          margin-bottom: 0;
+          flex: 1 0 auto;
+        }
+        h2 {
+          margin-bottom: 1vh;
+        }
+      }
+      span {
+        align-self: center;
+      }
+  }
+}

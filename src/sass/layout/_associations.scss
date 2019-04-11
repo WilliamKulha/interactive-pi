@@ -1,0 +1,17 @@
+.associations {
+  width: 100%;
+  border-top: $border;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    padding-top: 10px;
+    width: 15%;
+    min-height: 40px;
+  }
+
+  @include desktop-up {
+    grid-row: 5;
+  }
+}
